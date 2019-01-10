@@ -1,0 +1,158 @@
+{
+    // Editor
+    "editor.cursorBlinking": "phase",
+    "editor.detectIndentation": false,
+    "editor.dragAndDrop": false,
+    "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.maxColumn": 90,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        80
+    ],
+    "editor.smoothScrolling": true,
+    "editor.snippetSuggestions": "top",
+    "editor.wordWrap": "on",
+    // Workbench
+    "workbench.colorTheme": "Gruvbox Dark (Hard)",
+    "workbench.editor.closeOnFileDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.feedback.visible": false,
+    // Window
+    "window.openFoldersInNewWindow": "on",
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
+    "window.zoomLevel": 0,
+    // Files
+    "files.associations": {
+        "Vagrantfile": "ruby"
+    },
+    "files.autoSave": "afterDelay",
+    "files.eol": "\n",
+    "files.hotExit": "onExitAndWindowClose",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    // HTML
+    "html.format.endWithNewline": true,
+    "html.format.indentHandlebars": true,
+    // Typescript
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    // Integrated Terminal
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    // Default Configuration Overrides
+    "[html]": {
+        "editor.tabSize": 2,
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+    },
+    "[json]": {
+        "editor.tabSize": 2,
+    },
+    "[scss]": {
+        "editor.tabSize": 2,
+    },
+    "[shell]": {
+        "editor.tabSize": 2,
+    },
+    // Python
+    "python.jediEnabled": false,
+    "python.linting.pylintArgs": [
+        "--max-line-length=79"
+    ],
+    "python.linting.pylintUseMinimalCheckers": false,
+    "python.venvPath": "/home/sam/.virtualenvs",
+    // Go
+    "go.autocompleteUnimportedPackages": true,
+    // Git
+    "git.autofetch": true,
+    "git.defaultCloneDirectory": "/home/sam/github",
+    // AutoDocstring
+    "autoDocstring.docstringFormat": "google",
+    // ESLint
+    "eslint.alwaysShowStatus": true,
+    "eslint.autoFixOnSave": true,
+    // TODO Highlight
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.py",
+        "**/*.go",
+        "**/*.ino",
+    ],
+    // Arduino
+    "arduino.path": "/usr/local/arduino",
+    // ShellCheck
+    "shellcheck.disableVersionCheck": true,
+    // material icons settings
+    "material-icon-theme.activeIconPack": "react_redux",
+    // Gitlens
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    // Emmet
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    // Theme customizations
+    "workbench.colorCustomizations": {
+        "foreground": "#F9F5D7",
+        "activityBar.background": "#076678",
+        "statusBar.background": "#AF3A03",
+        "terminal.background": "#1D2021",
+        "terminal.foreground": "#F9F5D7",
+        "terminal.ansiBlack": "#1D2021",
+        "terminal.ansiBlue": "#458588",
+        "terminal.ansiBrightBlack": "#32302F",
+        "terminal.ansiBrightBlue": "#83A598",
+        "terminal.ansiBrightCyan": "#8EC07C",
+        "terminal.ansiBrightGreen": "#B8BB26",
+        "terminal.ansiBrightMagenta": "#D3869B",
+        "terminal.ansiBrightRed": "#FB4934",
+        "terminal.ansiBrightWhite": "#F2E5BC",
+        "terminal.ansiBrightYellow": "#FABD2F",
+        "terminal.ansiCyan": "#689D6A",
+        "terminal.ansiGreen": "#98971A",
+        "terminal.ansiMagenta": "#B16286",
+        "terminal.ansiRed": "#CC241D",
+        "terminal.ansiWhite": "#F9F5D7",
+        "terminal.ansiYellow": "#D79921",
+        "terminal.selectionBackground": "#d65d0e8c",
+        "terminalCursor.background": "#F9F5D7",
+        "terminalCursor.foreground": "#d65d0e8c",
+        "sideBar.foreground": "#F9F5D7",
+        "sideBarTitle.foreground": "#D3869B",
+        "sideBarSectionHeader.foreground": "#D3869B",
+        "selection.background": "#d65d0e8c",
+        "editor.selectionBackground": "#d65e0e31",
+        "editor.selectionHighlightBackground": "#d79a2131",
+        "editorCursor.foreground": "#FE8019",
+        "editorLineNumber.foreground": "#A89984",
+        "list.activeSelectionBackground": "#d65d0e8c",
+        "list.hoverBackground": "#d65e0e3f",
+    },
+}
