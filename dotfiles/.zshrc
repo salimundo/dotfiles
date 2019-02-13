@@ -122,6 +122,7 @@ POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
 
 # User
 DEFAULT_USER='sam'
+SAVEHIST=5000
 
 # nvm settings
 export NVM_DIR="$HOME/.nvm"
