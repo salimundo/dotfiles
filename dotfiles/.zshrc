@@ -106,7 +106,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cdgit="cd /home/sam/github"
 alias cdgo="cd /home/sam/go"
-alias gohome="cd ~"
 
 # Powerline9k customizations
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
@@ -114,7 +113,7 @@ POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="↱"
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="↳ "
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv nvm context dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator command_execution_time background_jobs history time)
 POWERLEVEL9K_HISTORY_BACKGROUND="005"
 POWERLEVEL9K_VIRTUALENV_BACKGROUND="red"
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
