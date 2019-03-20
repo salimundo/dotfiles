@@ -17,4 +17,16 @@
         "key": "ctrl+shift+alt+c",
         "command": "workbench.action.toggleCenteredLayout"
     },
+    {
+        "key": "ctrl+shift+alt+t",
+        "command": "openInTerminal"
+    },
+    {
+        "key": "ctrl+shift+alt+left",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+left",
+        "command": "-workbench.action.focusLeftGroup"
+    }
 ]

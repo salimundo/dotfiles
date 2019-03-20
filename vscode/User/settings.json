@@ -8,6 +8,7 @@
     "editor.fontSize": 15,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
+    "editor.formatOnType": true,
     "editor.minimap.enabled": true,
     "editor.minimap.maxColumn": 90,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -27,14 +28,18 @@
     "workbench.statusBar.feedback.visible": false,
     // Window
     "window.openFoldersInNewWindow": "on",
-    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
+    "window.titleBarStyle": "custom",
     "window.zoomLevel": 0,
     // Files
     "files.associations": {
         "Vagrantfile": "ruby"
     },
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "off",
     "files.eol": "\n",
+    "files.exclude": {
+        "**/__pycache__": true
+    },
     "files.hotExit": "onExitAndWindowClose",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -54,17 +59,31 @@
     "[javascript]": {
         "editor.tabSize": 2,
     },
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+    },
     "[json]": {
         "editor.tabSize": 2,
     },
     "[scss]": {
         "editor.tabSize": 2,
     },
-    "[shell]": {
+    "[gohtml]": {
+        "editor.tabSize": 2
+    },
+    "[cpp]": {
         "editor.tabSize": 2,
     },
+    "[shellscript]": {
+        "editor.tabSize": 2,
+    },
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
     // Python
+    "python.formatting.provider": "yapf",
     "python.jediEnabled": false,
+    "python.linting.pylintEnabled": true,
     "python.linting.pylintArgs": [
         "--max-line-length=79"
     ],
@@ -116,8 +135,11 @@
     },
     // Emmet
     "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
+        "javascript": "javascriptreact",
+        "gohtml": "html"
     },
+    // IntelliSense for CSS class names in HTML
+    "html-css-class-completion.includeGlobPattern": "**/*.{css,html,gohtml}",
     // Theme customizations
     "workbench.colorCustomizations": {
         "foreground": "#F9F5D7",
