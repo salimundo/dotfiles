@@ -113,6 +113,14 @@
         "**/*.go",
         "**/*.ino",
     ],
+    "todohighlight.keywords": [
+        {
+            "text": "NOTE:",
+            "color": "#ff0000",
+            "backgroundColor": "yellow",
+            "overviewRulerColor": "grey"
+        },
+    ],
     // Arduino
     "arduino.path": "/usr/local/arduino",
     // ShellCheck
@@ -177,4 +185,37 @@
         "list.activeSelectionBackground": "#d65d0e8c",
         "list.hoverBackground": "#d65e0e3f",
     },
+    "codedox": {
+        "autoInsert": true, // enables insertion of function comments trigged by keystrokes
+        "autoInsertHeader": true, // enables insertion of file header triggered by keystrokes
+        "autoPrefixOnEnter": true, // enables 'on enter' rules
+        "paramFormat": "@param ${name} ", // supports ${name} and ${type}, plus built-in params
+        "returnFormat": "@return ${type}", // supports ${type}, plus built-in params
+        "allowOptionalArgs": false, // false strips the '?' prefix from optional function args
+        "alwaysMultiline": true, // if false non-functions (types) are single line
+        "commentprefix": " * ",
+        "commentbegin": "/**",
+        "commentend": " */",
+        "commentdescription": "[Description]",
+        "headerprefix": "*",
+        "headerbegin": "/*",
+        "headerend": " */",
+        "fileheader": {
+            "params": {
+                "*": {
+                    "company": "GoDaddy",
+                    "author": "Sam Pellegrino"
+                }
+            },
+            "templates": {
+                "*": [
+                    "${headerbegin}",
+                    "${headerprefix} Copyright (c) ${year} ${company}",
+                    "${headerprefix}",
+                    "${headerprefix} Author: ${author}",
+                    "${headerend}"
+                ]
+            }
+        }
+    }
 }
